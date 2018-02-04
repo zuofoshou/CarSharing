@@ -51,10 +51,10 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <com.facebook.drawee.view.SimpleDraweeView  xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        <com.facebook.drawee.view.SimpleDraweeView xmlns:fresco="http://schemas.android.com/apk/res-auto"
             android:id="@+id/iv_car1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="60dp"
             android:layout_weight="3"
             fresco:actualImageScaleType="fitXY"
             fresco:failureImage="@mipmap/ic_launcher"
@@ -100,14 +100,14 @@
 
         <com.facebook.drawee.view.SimpleDraweeView xmlns:fresco="http://schemas.android.com/apk/res-auto"
             android:id="@+id/iv_car2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="3"
             fresco:actualImageScaleType="fitXY"
             fresco:failureImage="@mipmap/ic_launcher"
             fresco:failureImageScaleType="fitXY"
             fresco:placeholderImage="@mipmap/ic_launcher"
-            fresco:placeholderImageScaleType="fitXY"
-            android:layout_width="0dp"
-            android:layout_height="80dp"
-            android:layout_weight="3" />
+            fresco:placeholderImageScaleType="fitXY" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -148,7 +148,7 @@
         <com.facebook.drawee.view.SimpleDraweeView xmlns:fresco="http://schemas.android.com/apk/res-auto"
             android:id="@+id/iv_car3"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="60dp"
             android:layout_weight="3"
             fresco:actualImageScaleType="fitXY"
             fresco:failureImage="@mipmap/ic_launcher"
@@ -183,6 +183,62 @@
                 android:textColor="@color/black" />
 
         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tv_homep_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="还取车地点："
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_homep_place"
+                android:hint="点击选择"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取车时间："/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取车时间："/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认用车"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center_horizontal"/>
     </LinearLayout>
 
 </LinearLayout>
