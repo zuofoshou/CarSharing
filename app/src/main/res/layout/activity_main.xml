@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <com.example.admin.carsharing.view.CustomViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/view_pager">
+
+    </com.example.admin.carsharing.view.CustomViewPager>
+
+    <View
+        style="@style/divier_style"/>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_homepage"
+            style="@style/main_rb_style"
+            android:checked="true"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_order"
+            style="@style/main_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/main_rb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的" />
+
+    </RadioGroup>
+</LinearLayout>

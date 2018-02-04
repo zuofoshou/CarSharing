@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--背景色-->
+    <color name="app_bg">#F3F7F5</color>
+    <!--标题背景色-->
+    <color name="toolbar_bg">#FF3366</color>
+    <!--底部导航栏选中颜色-->
+    <color name="rb_checked_true">#FF3366</color>
+    <!--底部导航栏未选中颜色-->
+    <color name="rb_checked_false">#797979</color>
+    <!--分割线颜色-->
+    <color name="divier_color">#EBEBEB</color>
+</resources>
