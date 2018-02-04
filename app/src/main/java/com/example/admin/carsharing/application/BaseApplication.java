@@ -10,6 +10,8 @@ import com.facebook.common.internal.Supplier;
 import com.facebook.common.util.ByteConstants;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.imagepipeline.core.ImagePipelineConfig;
+import com.orhanobut.logger.LogLevel;
+import com.orhanobut.logger.Logger;
 
 import java.io.File;
 
@@ -29,7 +31,10 @@ public class BaseApplication extends Application {
         CrashHandler.getInstance().init(this);
         RetrofitUtils.init();
         initPresco();
-
+        Logger.init("result")
+                .setMethodCount(3)
+                .hideThreadInfo()
+                .setLogLevel(LogLevel.FULL);
     }
 
     private void initPresco() {
