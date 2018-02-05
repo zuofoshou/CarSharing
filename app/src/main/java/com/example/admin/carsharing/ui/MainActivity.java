@@ -26,7 +26,6 @@ public class MainActivity extends BaseAty {
 
     private List<BaseFgt> mBaseFgts;
 
-
     @Override
     protected void requestData() {
 
