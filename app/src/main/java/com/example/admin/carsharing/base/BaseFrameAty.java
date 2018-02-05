@@ -146,21 +146,21 @@ public abstract class BaseFrameAty extends AppCompatActivity implements HttpCall
      */
     public abstract void btnClick(View view);
 
-    protected abstract void requestData();
-
-    /**
-     * 初始化数据
-     */
-    protected abstract void initData();
-
-    protected abstract boolean setIsInitRequestData();
-
     /**
      * 绑定布局
      *
      * @return
      */
     public abstract int getLayoutId();
+
+    /**
+     * 初始化数据
+     */
+    protected abstract void initData();
+
+    protected abstract void requestData();
+
+    protected abstract boolean setIsInitRequestData();
 
     /**
      * 弹吐司

@@ -1,11 +1,29 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--备用的AppTheme-->
+    <!--去掉标题栏的正确方式-->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <!--Light主题下，设置Menu的文字颜色是白色-->
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionBarSize">50dp</item>
+        <!--标题栏的颜色-->
+        <item name="android:colorPrimary">@color/toolbar_bg</item>
+        <!--导航栏的颜色-->
+        <item name="android:colorPrimaryDark">@color/toolbar_bg</item>
+        <!--对应ET编辑时、RadioButton选中、CheckBox等选中的颜色-->
+        <item name="android:colorAccent">@color/toolbar_bg</item>
+        <item name="android:windowIsTranslucent">true</item>
     </style>
 
     <!--底部导航栏三按钮样式-->
