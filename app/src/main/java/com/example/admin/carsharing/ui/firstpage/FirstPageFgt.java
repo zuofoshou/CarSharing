@@ -2,10 +2,8 @@ package com.example.admin.carsharing.ui.firstpage;
 
 import android.view.View;
 import android.widget.Button;
-
 import com.example.admin.carsharing.R;
 import com.example.admin.carsharing.ui.BaseFgt;
-
 import butterknife.Bind;
 import butterknife.OnClick;
 

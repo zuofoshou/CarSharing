@@ -4,18 +4,14 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.widget.RadioGroup;
 import com.example.admin.carsharing.R;
 import com.example.admin.carsharing.ui.firstpage.FirstPageFgt;
 import com.example.admin.carsharing.ui.mine.MineFgt;
 import com.example.admin.carsharing.ui.order.OrderFgt;
-import com.facebook.drawee.backends.pipeline.Fresco;
 import java.util.ArrayList;
 import java.util.List;
 import butterknife.Bind;
-import butterknife.ButterKnife;
 
 public class MainActivity extends BaseAty {
 
