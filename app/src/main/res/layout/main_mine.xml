@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:actualImageScaleType="fitXY"
+        android:layout_marginTop="20dp"
+        app:failureImage="@mipmap/ic_launcher"
+        app:failureImageScaleType="fitXY"
+        app:placeholderImage="@mipmap/ic_launcher"
+        app:placeholderImageScaleType="fitXY"
+        app:roundAsCircle="true"
+        app:roundingBorderColor="@color/white"
+        app:roundingBorderWidth="2dp"/>
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="我的"
-        android:textSize="24sp"
-        android:gravity="center"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的钱包"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的认证"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="好友邀请"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关于我们"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="客服中心"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
 </LinearLayout>
