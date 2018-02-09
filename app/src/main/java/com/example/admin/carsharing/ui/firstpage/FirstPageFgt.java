@@ -42,6 +42,5 @@ public class FirstPageFgt extends BaseFgt{
 
     @Override
     public void requestData() {
-
     }
 }
