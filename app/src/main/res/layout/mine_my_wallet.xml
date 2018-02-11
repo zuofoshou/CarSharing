@@ -12,6 +12,8 @@
     android:layout_height="40dp"
     android:gravity="center_vertical"
     android:background="@color/white"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
     android:layout_marginTop="20dp">
 
     <TextView
@@ -34,6 +36,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:gravity="center_vertical"
         android:background="@color/white"
         android:layout_marginTop="20dp">
@@ -41,14 +45,40 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="优惠券"
+            android:text="余额"
             android:textColor="@color/black"
             android:textSize="20sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2张"
+            android:text="203元"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@mipmap/ic_jiaotou_hei"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="押金"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="600元"
             android:layout_alignParentRight="true"
             android:drawableRight="@mipmap/ic_jiaotou_hei"
             android:textSize="20sp"
@@ -59,44 +89,21 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:background="@color/white"
         android:layout_marginTop="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="优惠券"
+            android:text="兑换口令"
             android:textColor="@color/black"
             android:textSize="20sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2张"
-            android:layout_alignParentRight="true"
-            android:drawableRight="@mipmap/ic_jiaotou_hei"
-            android:textSize="20sp"
-            android:textColor="@color/black"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:gravity="center_vertical"
-        android:background="@color/white"
-        android:layout_marginTop="20dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="优惠券"
-            android:textColor="@color/black"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2张"
             android:layout_alignParentRight="true"
             android:drawableRight="@mipmap/ic_jiaotou_hei"
             android:textSize="20sp"
